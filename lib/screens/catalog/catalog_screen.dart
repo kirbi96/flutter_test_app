@@ -3,14 +3,14 @@ import 'package:location_flutter/widgets/widgets.dart';
 
 class CatalogScreen extends StatelessWidget {
   static const String routeName = '/catalog';
-  
+
   static Route route() {
     return MaterialPageRoute(
       settings: const RouteSettings(name: routeName),
-        builder: (_) => const CatalogScreen(),
+      builder: (_) => const CatalogScreen(),
     );
   }
-  
+
   const CatalogScreen({Key? key}) : super(key: key);
 
   @override

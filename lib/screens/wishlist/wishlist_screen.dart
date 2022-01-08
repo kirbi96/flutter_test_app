@@ -3,14 +3,14 @@ import 'package:location_flutter/widgets/widgets.dart';
 
 class WishListScreen extends StatelessWidget {
   static const String routeName = '/wishlist';
-  
+
   static Route route() {
     return MaterialPageRoute(
       settings: const RouteSettings(name: routeName),
-        builder: (_) => const WishListScreen(),
+      builder: (_) => const WishListScreen(),
     );
   }
-  
+
   const WishListScreen({Key? key}) : super(key: key);
 
   @override
